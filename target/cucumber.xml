@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="76.117" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="User login page" name="User should login sucessfully with Valid credentials - #1.1" time="27.203">
+<system-out><![CDATA[
+Given user is on Login Page.................................................passed
+When user should be able to login with valid "controllengine007@jamesbond.com" and "Rimjhim##1234".passed
+Then user shoule be directed to "ADMIN" pages...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="User login page" name="User should login sucessfully with Valid credentials - #1.2" time="24.333">
+<system-out><![CDATA[
+Given user is on Login Page.................................................passed
+When user should be able to login with valid "9911624321@gmail.com" and "Rimjhim##1234".passed
+Then user shoule be directed to "ARTIST" pages..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="User login page" name="User should login sucessfully with Valid credentials - #1.3" time="23.96">
+<system-out><![CDATA[
+Given user is on Login Page.................................................passed
+When user should be able to login with valid "rakesh501@gmail.com" and "Rimjhim##1234".passed
+Then user shoule be directed to "USER ADMIN" pages..........................passed
+]]></system-out>
+</testcase>
+</testsuite>
