@@ -1,6 +1,6 @@
 Feature: Artist Registration
 
-  @RegisterNewArtistPage12345678910
+  @RegisterNewArtistPageFinal
   Scenario Outline: Register a New Artist
     Given Artist is on the homepage
     When Artist clicks on the join as artist button and fills the "<WhatsYourTalent>" and "<GigLocation>"
@@ -26,4 +26,4 @@ Feature: Artist Registration
 
     Examples: 
       | WhatsYourTalent          | GigLocation | Page2   | FullName       | ProfessionalName | DOB        | Password    | ConfirmPassword | Page3            | GeneralCategory          | SpecificCategory  | Page4                                     | HearAboutNXTGIG | Page5   | Address                                                      | City  | ZipCode | Page6    | profilePic   | Page7            | ServiceOverview | Page8        | PhoneNumber | Email               | SSNNumber | DocName   | Page9        | Youtube | Insta     | Twitter     | Fb     | Page10 | registeredEmail     |
-      | Circus & Speciality Acts | Tampa       | Welcome | Shinde Harshad | Smart Joker      | 30-06-1990 | Harshad@123 | Harshad@123     | Nice to meet you | Circus & Speciality Acts | Circus Performers | How did you hear about NXTGIG? (Optional) | Social Media    | Address | Tampa General Hospital, Tampa General Circle, Tampa, FL, USA | Tampa |   33602 | Continue | Group 43.png | Service overview | Lorem Ipsum     | Phone number |  9555555054 | dhJfffgjs@gmail.com | NXTGIG123 | Whats.jpg | Social media | yt.com  | insta.com | twitter.com | fb.com | Pro    | d*******s@gmail.com |
+      | Circus & Speciality Acts | Tampa       | Welcome | Shinde Harshad | Smart Joker      | 30-06-1990 | Harshad@123 | Harshad@123     | Nice to meet you | Circus & Speciality Acts | Circus Performers | How did you hear about NXTGIG? (Optional) | Social Media    | Address | Tampa General Hospital, Tampa General Circle, Tampa, FL, USA | Tampa |   33602 | Continue | Group 43.png | Service overview | Lorem Ipsum     | Phone number |  1234543210 | dhJfjjj456js@gmail.com | NXTGIG123 | Whats.jpg | Social media | yt.com  | insta.com | twitter.com | fb.com | Pro    | d*******s@gmail.com |
